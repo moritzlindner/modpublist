@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" client="site" method="upgrade">
+    <name>Publication List</name>
+    <author>Moritz Lindner</author>
+    <version>0.4.0</version>
+    <description>Retrieves article information by pubmed ID and prints them in a table togehter with an altmetrics badge.</description>
+    <files>
+        <filename>mod_publist.xml</filename>
+        <filename module="mod_publist">mod_publist.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+    </files>
+    <config>
+	<fields name="params">
+		<fieldset name="basic">
+		<field name="PMIDs" type="textarea" label="PMIDs" default="" description="Input PMIDs. One per line." rows="10" cols="5" />
+		<field name="font-size" type="text" label="Font Size" default="100%" description="Default font size" />
+		<field name="short" type="checkbox" label="Use short format?" default="0" description="Short format?" />
+		</fieldset>
+	</fields>
+    </config>
+</extension>
