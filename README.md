@@ -31,9 +31,9 @@ This Joomla module allows users to retrieve article information by PubMed ID and
 
 ## Author
 
-    Moritz Lindner
+Moritz Lindner
 
-License
+## License
 
-This Joomla module is licensed under the GNU General Public License v2.0.# modpublist
+This Joomla module is licensed under the GNU General Public License v3.0.# modpublist
 A Joomla module generating a publication list including altmetric badges from a list of pubmed IDs.
